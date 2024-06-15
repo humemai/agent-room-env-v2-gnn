@@ -2,10 +2,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import argparse
-import logging
 
-logger = logging.getLogger()
-logger.disabled = True
 
 from humemai.utils import read_yaml
 

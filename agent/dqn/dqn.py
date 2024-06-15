@@ -1,4 +1,4 @@
-"""Agent that uses a GNN for its DQN, for the RoomEnv2 environment."""
+"""Agent that uses a GNN for its DQN, for the RoomEnv-v2 environment."""
 
 import datetime
 import os

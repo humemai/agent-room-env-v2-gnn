@@ -6,11 +6,6 @@ import matplotlib
 
 matplotlib.use("Agg")
 
-import logging
-
-logger = logging.getLogger()
-logger.disabled = True
-
 import os
 import random
 import subprocess

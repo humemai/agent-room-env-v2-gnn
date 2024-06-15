@@ -1,6 +1,5 @@
 """Utility functions for DQN."""
 
-import logging
 import os
 from typing import Literal
 import random
@@ -19,12 +18,6 @@ from humemai.utils import (
 )
 from IPython.display import clear_output
 from tqdm.auto import tqdm
-
-logging.basicConfig(
-    level=os.environ.get("LOGLEVEL", "INFO").upper(),
-    format="%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
 
 
 class ReplayBuffer:
